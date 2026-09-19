@@ -1,3 +1,15 @@
-const prompt = require('prompt-sync')();
-let nome = prompt("Qual é o seu nome?");
-console.log("Olá, " + nome + "! Bem-vindo ao nosso programa.")
+///INPUT E Output
+
+
+const prompt = require('prompt-sync') ();
+
+
+
+console.log("=VERIFICADOR DE MULTA=");
+console.log("");
+
+
+let velocidade = Number(prompt("Digite a velocidade do carro: "))
+
+
+console.log = velocidade  ==80 >= 80("Você foi multado")
